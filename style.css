@@ -12,6 +12,15 @@ body,
     justify-content: space-between;
 }
 .child{
-    border: 2px solid red;
+    /* border: 2px solid blueviolet; */
     width: 28%;
+}
+.child-1{
+    border: 3px solid green;
+}
+.child-2{
+    border: 3px solid red;
+}
+.child-3{
+    border: 3px solid purple;
 }
