@@ -22,22 +22,15 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 90vw;
-    margin: 40px auto;
+    margin: 30px auto;
+    width: 95vw;
     border-radius: 30px;
+    flex-wrap: wrap;
 }
 .horse{
-    width: 85%;
-}
-.horse-1{
+    width: 40%;
     border: 3px solid black;
-    height: 500px;
 }
-.horse-2{
-    border: 3px solid black;
-    height: 500px;
-}
-.horse-3{
-    border: 3px solid black;
-    height: 500px;
+.imgsize{
+    width: 40%;
 }
