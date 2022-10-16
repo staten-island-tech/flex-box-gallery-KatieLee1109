@@ -3,7 +3,7 @@ body,
 *{
     padding: 0;
     margin: 10px;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 20px;
     flex: 200px;
     box-sizing: border-box;
@@ -12,11 +12,12 @@ body,
 
 h1{
     font-size: 60px;
-    text-align: center; 
+    text-align: center;
     margin: 5px auto;
-    border: 3px solid black;
     font-family: 'Alkalami', serif;
+    border: 3px solid black;
 }
+
 .h2{
     font-size: 15px;
 }
@@ -51,6 +52,7 @@ transition: .5s ease;
 
 .imgsize{
     width: 95%;
+    align-items: center;
 
     opacity:0.5;
 transition: 1s ease;
@@ -79,10 +81,35 @@ box-shadow:
 transform: translateX(-3px);
 transition: .5s ease;
 }
-a{
+.hover{
     border: 3px solid plum;
     padding: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
 }
+@keyframes example {
+    0%   {background-color:pink; left:0px; top:0px;}
+    25%  {background-color: rgb(225, 145, 241); left:1300px; top:0px;}
+    50%  {background-color: pink; left:1300px; top:900px;}
+    75%  {background-color: rgb(225, 145, 241); left:0px; top:900px;}
+    100% {background-color: pink; left:0px; top:0px;}
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
