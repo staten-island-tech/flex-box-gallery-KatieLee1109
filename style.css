@@ -94,9 +94,9 @@ transition: .5s ease;
 }
 @keyframes example {
     0%   {background-color:pink; left:0px; top:0px;}
-    25%  {background-color: rgb(225, 145, 241); left:1300px; top:0px;}
-    50%  {background-color: pink; left:1300px; top:900px;}
-    75%  {background-color: rgb(225, 145, 241); left:0px; top:900px;}
+    25%  {background-color: rgb(225, 145, 241); left:1700px; top:0px;}
+    50%  {background-color: pink; left:1700px; top:1000px;}
+    75%  {background-color: rgb(225, 145, 241); left:0px; top:1000px;}
     100% {background-color: pink; left:0px; top:0px;}
   }
   
