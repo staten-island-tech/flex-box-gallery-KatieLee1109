@@ -45,7 +45,6 @@ h1{
 -ms-transform: rotateZ(-10deg);
 transform: rotateZ(-10deg);
 transition: 1s ease;
-
 box-shadow: 0 0 0 10px #000000;
 transition: .5s ease;
 }
@@ -53,23 +52,16 @@ transition: .5s ease;
 .imgsize{
     width: 95%;
     align-items: center;
-
     opacity:0.5;
 transition: 1s ease;
-
-transition: 1s ease;
-
 transition: .5s ease;
-
 }
 .imgsize:hover{
 opacity:1;
-
 -webkit-transform: scale(1.2);
 -ms-transform: scale(1.2);
 transform: scale(1.2);
 transition: 1s ease;
-
 box-shadow:
 1px 1px #373737,
 2px 2px #373737,
@@ -81,6 +73,7 @@ box-shadow:
 transform: translateX(-3px);
 transition: .5s ease;
 }
+
 .hover{
     border: 3px solid plum;
     padding: 2px;
@@ -89,10 +82,10 @@ transition: .5s ease;
     height: 100px;
     background-color: palevioletred;
     position: relative;
-    animation-name: example;
-    animation-duration: 8s;
+    animation-name: animation;
+    animation-duration: 10s;
 }
-@keyframes example {
+@keyframes animation {
     0%   {background-color:pink; left:0px; top:0px;}
     25%  {background-color: rgb(225, 145, 241); left:1700px; top:0px;}
     50%  {background-color: pink; left:1700px; top:1000px;}
