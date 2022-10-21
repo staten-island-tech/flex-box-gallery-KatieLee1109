@@ -92,6 +92,14 @@ transition: .5s ease;
     75%  {background-color: rgb(225, 145, 241); left:0px; top:950px;}
     100% {background-color: pink; left:0px; top:0px;}
   }
+  @media only screen and (min-width: 390px) and (max-width: 767px)
+  @media (max-width: 1024px) {
+	#desktop-nav {display: none;}
+	#mobile-nav {display: block;}
+}
+@media only screen and (max-width: 769px) and (max-height: 1024px)
+
+
   
 
 
